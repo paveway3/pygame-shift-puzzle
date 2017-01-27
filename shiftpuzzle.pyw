@@ -79,7 +79,7 @@ def shuffle():
     global emptyc, emptyr
     # keep track of last shuffling direction to avoid "undo" shuffle moves
     last_r = 0
-    for i in range(5):
+    for i in range(50):
         # slow down shuffling for visual effect
         pygame.time.delay(50)
         while True:
